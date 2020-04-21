@@ -1,0 +1,46 @@
+body{
+  margin:0;
+  padding: 0;
+  font-family: cursive;
+  background: lightblue;
+}
+h1
+{
+  text-align: center;
+}
+.container ul li{
+  float: left;
+  width: 330px;
+  height: 40%;
+  margin:40px;
+  background: lightgreen;
+  overflow: hidden;
+  box-sizing: border-box;
+  border: 2px solid black;
+  }
+.container ul li .title
+{
+  width: 40%;
+  height: 40px;
+  text-align: right;
+  background: pink;
+  font-size: 30px;
+  float: right;
+}
+.container ul li .para
+{
+  margin: 10px;
+  padding: 10px;
+  float:left;
+}
+@media screen  (min-width:900px){.mrg1 , .mrg2 , .mrg3
+    .mrg1{
+ width:50%;
+  }
+     .mrg2{
+    width:50%;
+  }
+   .mrg3{
+width: 100%;
+  }
+}
